@@ -1,0 +1,19 @@
+De mogelijkheden van Raspberry Pi's en hun toepassingen in de huidige technologische wereld zijn ongekend.
+Deze kleine, betaalbare en krachtige computers kunnen worden gebruikt voor verschillende doeleinden, van het maken van een thuisautomatiseringssysteem tot 
+het ontwikkelen van een videospel. In dit project laten we zien hoe we Raspberry Pi's kunnen gebruiken om beweging 
+te detecteren met behulp van verschillende cameras en hoe we deze gegevens kunnen verwerken en opslaan. 
+
+Het gebruik van Raspberry Pi's voor bewegingsdetectie is niet nieuw,
+maar in dit project laten we zien hoe we beweging kunnen detecteren met behulp van Raspberry Pi's en verschillende cameras,
+en hoe we de gegevens kunnen verwerken en opslaan met behulp van MariaDB en MySQL. 
+Dit is een eenvoudig en betaalbaar project dat kan worden gebruikt voor verschillende doeleinden,
+zoals het monitoren van activiteiten op een bepaalde locatie. 
+
+
+In dit project wordt gebruik gemaakt van twee Raspberry Pi's. 
+Raspberry Pi 1 heeft een lokale camera en microfoon aangesloten en stuurt deze gegevens naar Raspberry Pi 2,
+die als server fungeert. De Raspberry Pi's zijn verbonden via een lokale router en er is ook een IP-camera aangesloten op deze router.
+De server heeft toegang tot deze IP-camera. Het doel is om beweging met de camera's te detecteren. 
+Wanneer beweging wordt gedetecteerd, wordt een korte video gemaakt met zowel de lokale camera als de IP-camera, samen met een korte audioregistratie. 
+De tijdstempels waarop beweging is gedetecteerd en dus wanneer een video is gemaakt, worden ook opgeslagen in een database met behulp van MariaDB en MySQL.
+Raspberry Pi 1 gebruikt het programma Motion om beweging te detecteren en Raspberry Pi 2 gebruikt Python. 
