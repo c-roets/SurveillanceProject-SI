@@ -1,0 +1,3 @@
+rc.local startup file for local Rpi
+motion.conf file for motion configurations
+IP networkcam Python code
