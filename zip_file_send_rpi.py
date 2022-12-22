@@ -80,12 +80,12 @@ while True:
     #print(current_min)
     current_day = now.strftime("%d-%m-%Y")
     
-    if int(current_hour) == 16 and int(current_min) == 14:
+    if int(current_hour) == 23 and int(current_min) == 55:
         sent_today = False
 
     # check if it is midnight
     #print("If-statement controleren")
-    if int(current_hour) == 16 and int(current_min) == 53 and sent_today == False:
+    if int(current_hour) == 0 and int(current_min) == 0 and sent_today == False:
       sent_today = True
       
       print("If-statement is correct")  
